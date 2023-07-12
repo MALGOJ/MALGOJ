@@ -1,38 +1,13 @@
+# MALGOJ
 - 👋 Hi there,
 - 🥷I’m @MALGOJ, I'm a software developer in growth 
 - 👀 I like doing quality work, using best practices for the development
 - 🧑‍💻 Coding is my hobby.
-- 🌱 I’m currently learning develop web pages and data bases  
-- 📫 How to reach me is to send me an email. 
+- 🌱 I’m currently learning backend develop  
+- 📫 How to reach me is to send me an email.
+- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MALGOJ)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 MALGOJ/MALGOJ is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-# MALGOJ
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
