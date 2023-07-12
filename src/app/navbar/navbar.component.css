@@ -1,0 +1,10 @@
+
+/* navbar config */
+.navbar{
+  padding: 1rem;
+
+}
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}

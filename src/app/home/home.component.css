@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dark-section {
+  color: white;
+  background-color: black;
+}
+
+.light-section{
+  color: black;
+  background-color: white;
+}
+
+
+
+
+/* hero */
+.hero{
+  min-height: 450px;
+  text-align: center;
+  background-color:#F2F8FD;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-family: 'Rubik Wet Paint', cursive;
+  font-family: 'Satisfy', cursive;
+  color:rgb(0, 0, 0);
+}
+
+.hero h4 {
+  text-align: center;
+  font-size: 1rem;
+  color: #022a32;
+
+}
+.circle{
+  /* margin-left: 2%; */
+  width: 350px;
+  height: 450px;
+  border-radius: 8%;
+  /* background-size: cover; */
+}
+
+/* about me */
+.about_me{
+  height: 350px;
+  padding: 1rem;
+}
+
+.about_me h1{
+  font-size: 3rem;
+  font-family: 'Rubik Wet Paint', cursive;
+  font-family: 'Satisfy', cursive;
+  padding: 15px 0;
+}
+.about_me p{
+  font-size: 1.5rem;
+}
+
+ /* skills */
+ .skills{
+  height: 400px;
+  padding: 1rem;
+}
+.skills h1{
+  font-size: 3rem;
+  font-family: 'Rubik Wet Paint', cursive;
+  font-family: 'Satisfy', cursive;
+  padding: 5px 0;
+}
+
+/* formation */
+.formation{
+  text-align: center;
+  background-color:#F2F8FD;
+}
+
+.formation h1{
+  font-size: 3rem;
+  font-family: 'Rubik Wet Paint', cursive;
+  font-family: 'Satisfy', cursive;
+  padding: 5px 0;
+}
+
+/* contact  */
+
+.conctact .container{
+  max-width: 1100px;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.conctact .rectangulo{
+  margin-top: -5rem;
+  background-color:teal;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white; /*sombra*/
+}
+.conctact .row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.conctact .description{
+  color:white;
+  font-size: 1.2rem;
+}
+.talk{
+  font-size: 3rem;
+  font-family: 'Rubik Wet Paint', cursive;
+  font-family: 'Satisfy', cursive;
+  padding: 5px 0;
+}
+.conctact button{
+  color: white;
+  font-weight: bold;
+  border-radius: 40px;
+  border: 2px solid black;
+  padding: 1em 2em;
+  margin: 10px;
+  /* transition: all 0.2s ease-in-out;*//* transiscion de los botones  */
+}
+.conctact button i {
+  color: white;
+  font-size: 1.3rem;
+}
+
+
+/* responsive  */
