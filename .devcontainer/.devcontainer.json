@@ -1,0 +1,21 @@
+{
+    "name": "Malgoj Dev Container",
+    "dockerComposeFile": ["docker-compose.dev.yml"],
+    "service": "angular-app",
+    "workspaceFolder": "/app/malgoj",
+    "forwardPorts": [4200],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-tslint-plugin", // Extensión para TypeScript y TSLint
+                "esbenp.prettier-vscode", // Extensión para Prettier
+                "angular.ng-template" // Extensión para Angular
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    },
+    "postStartCommand": "cd /app/malgoj/malgoj && ng serve --host 0.0.0.0 --port 4200"
+}

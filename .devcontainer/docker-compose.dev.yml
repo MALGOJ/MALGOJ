@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  angular-app:
+    image: angular19
+    
+    container_name: malgoj-angular-dev # Nombre del contenedor para el servicio frontend
+    working_dir: /app
+    ports:
+      - "4300:4200" # Mapea el puerto 4200 del contenedor al puerto 4300 del host
+    command: sleep infinity # Comando para mantener el contenedor en ejecución  
+    #command: >
+     #sh -c "cd /app/malgoj && ng serve" 
+    environment:
+      - CHOKIDAR_USEPOLLING=true # Configuración para usar polling en lugar de eventos de archivos
+    volumes:
+      - malgoj-volume:/app/malgoj # Mapea el volumen nombrado al directorio de trabajo en el contenedor
+
+volumes:
+  malgoj-volume:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: /home/malgoj/proyectsSoftware/MALGOJ/frontend-MALGOJ
